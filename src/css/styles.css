@@ -62,8 +62,7 @@
   border-color: #000;
 }
 
-.search-btn {
-  width: 91px;
+.btn {
   height: 40px;
   border-radius: 8px;
   padding: 8px 16px;
@@ -76,9 +75,23 @@
   border: none;
 }
 
-.search-btn:hover,
-.search-btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: #6c8cff;
+}
+.load {
+  text-align: center;
+  margin-top: 24px;
+}
+.load-btn {
+  text-align: center;
+}
+.text-load {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 /* #endregion */
 

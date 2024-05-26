@@ -16,10 +16,23 @@
             name="search"
             placeholder="Enter your query..."
           />
-          <button type="submit" class="search-btn">Search</button>
+          <button type="submit" class="search-btn btn">Search</button>
         </form>
 
         <ul class="gallery-list js-gallery-list"></ul>
+
+        <div class="load">
+          <button
+            class="load-btn btn js-load-more visually-hidden"
+            type="button"
+          >
+            Load more
+          </button>
+          <p class="visually-hidden text-load js-text-load">
+            Loading images, please wait...
+          </p>
+        </div>
+
         <div class="loader visually-hidden"></div>
       </div>
     </section>
