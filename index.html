@@ -6,9 +6,9 @@
     <title>Gallery</title>
     
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-0fc460d7.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-b11e2a50.js">
     <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-4b066c51.css">
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-82740479.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-2bb58c02.css">
   </head>
   <body>
     <section class="section">
@@ -20,10 +20,23 @@
             name="search"
             placeholder="Enter your query..."
           />
-          <button type="submit" class="search-btn">Search</button>
+          <button type="submit" class="search-btn btn">Search</button>
         </form>
 
         <ul class="gallery-list js-gallery-list"></ul>
+
+        <div class="load">
+          <button
+            class="load-btn btn js-load-more visually-hidden"
+            type="button"
+          >
+            Load more
+          </button>
+          <p class="visually-hidden text-load js-text-load">
+            Loading images, please wait...
+          </p>
+        </div>
+
         <div class="loader visually-hidden"></div>
       </div>
     </section>
