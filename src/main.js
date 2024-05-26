@@ -150,7 +150,7 @@ function hello() {
     maxWidth: 360,
     position: 'topRight',
     iconUrl: iconHello,
-    backgroundColor: '#09f',
+    backgroundColor: '#6c8cff',
     messageColor: '#fff',
   });
 }
