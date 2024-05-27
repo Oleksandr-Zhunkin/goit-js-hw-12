@@ -37,6 +37,7 @@ async function onSubmit(e) {
   showLoading();
 
   try {
+    loadPage = 1;
     const result = await getPhotos(searchQuery, loadPage);
 
     if (result.hits.length === 0) {
