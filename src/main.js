@@ -54,9 +54,7 @@ async function onSubmit(e) {
 
     maxPages = Math.ceil(result.totalHits / perPage);
 
-    if (loadPage < maxPages) {
-      showLoadBtn();
-    }
+    result.totalHits < 15 ? hideLoadBtn() : showLoadBtn();
 
     lightbox.refresh();
   } catch (error) {
